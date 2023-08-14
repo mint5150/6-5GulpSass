@@ -1,0 +1,12 @@
+$width: 100px;
+$color : pink;
+
+.container {
+  width: $width;
+  height: $width + 100;
+  margin: $width - 100;
+  padding: $width * 2;
+  font-size: (20px / 2);
+  line-height: 10px % 3;
+  background-color: $color;
+}
